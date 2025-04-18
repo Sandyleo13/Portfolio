@@ -3,6 +3,7 @@ import { HeroSection } from "@/components/HeroSection";
 import { ProjectCard } from "@/components/ProjectCard";
 import { SkillsSection } from "@/components/SkillsSection";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { ExternalLink } from "lucide-react";
 
 const Index = () => {
   return (
@@ -17,8 +18,9 @@ const Index = () => {
             </CardHeader>
             <CardContent>
               <p className="text-gray-700">
-                To obtain a challenging data scientist position in a dynamic and innovative organization where I can use
-                my technical and analytical skills.
+                A passionate and innovative software developer seeking to leverage my technical skills in web development, 
+                data science, and DevOps to create impactful technological solutions. I am committed to continuous learning, 
+                problem-solving, and delivering high-quality software that drives meaningful technological advancements.
               </p>
             </CardContent>
           </Card>
@@ -50,6 +52,11 @@ const Index = () => {
                 "Integrated MongoDB for storing matches, teams, and results",
                 "Designed responsive UI with real-time match updates"
               ]}
+              links={[{
+                href: "https://github.com/Sandyleo13/arena-icon-blitz",
+                label: "View Repository",
+                icon: ExternalLink
+              }]}
             />
           </div>
         </div>
@@ -84,3 +91,4 @@ const Index = () => {
 };
 
 export default Index;
+
