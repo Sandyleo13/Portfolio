@@ -1,4 +1,3 @@
-
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { LucideIcon } from "lucide-react";
@@ -25,7 +24,7 @@ export const ProjectCard = ({
   links 
 }: ProjectCardProps) => {
   return (
-    <Card className="hover:shadow-lg transition-shadow flex flex-col">
+    <Card className="hover:shadow-lg transition-shadow flex flex-col h-full">
       <CardHeader>
         <CardTitle className="font-mono text-xl text-primary">{title}</CardTitle>
         <CardDescription className="font-mono">{technologies}</CardDescription>
@@ -38,7 +37,7 @@ export const ProjectCard = ({
           ))}
         </ul>
         {links && links.length > 0 && (
-          <div className="mt-auto flex space-x-2">
+          <div className="mt-auto flex flex-wrap gap-2">
             {links.map((link, index) => (
               <Button 
                 key={index}
