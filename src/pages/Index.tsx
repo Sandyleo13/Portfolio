@@ -1,4 +1,3 @@
-
 import { HeroSection } from "@/components/HeroSection";
 import { ProjectCard } from "@/components/ProjectCard";
 import { SkillsSection } from "@/components/SkillsSection";
@@ -56,6 +55,43 @@ const Index = () => {
                 label: "View Repository",
                 icon: ExternalLink
               }]}
+            />
+            <ProjectCard
+              title="Sandy Blogs"
+              technologies="MERN Stack | Markdown Editor | User Auth | Hosting"
+              description="Built a full-stack blogging platform for creating, editing, and publishing posts with user authentication"
+              points={[
+                "Implemented markdown support for rich text content creation",
+                "Used MongoDB for storing blog posts and user data, ensuring secure access",
+                "Designed a responsive, SEO-friendly UI with clean navigation and post previews"
+              ]}
+              links={[{
+                href: "https://sandyblogs.netlify.app/",
+                label: "Live Site",
+                icon: ExternalLink
+              }]}
+            />
+            <ProjectCard
+              title="TaskGen GitHub"
+              technologies="React | Task Management | UI/UX | Hosting"
+              description="Developed a user-focused task management app with a minimalistic interface"
+              points={[
+                "Enabled task creation, categorization, and live status tracking",
+                "Implemented responsive drag-and-drop UI for better productivity flow",
+                "Hosted the application with clean routing and performance optimizations"
+              ]}
+              links={[
+                {
+                  href: "https://github.com/Sandyleo13/Task-Management",
+                  label: "View Repository",
+                  icon: ExternalLink
+                },
+                {
+                  href: "https://taskgen.netlify.app/",
+                  label: "Live Site",
+                  icon: ExternalLink
+                }
+              ]}
             />
           </div>
         </div>
