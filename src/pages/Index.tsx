@@ -18,9 +18,8 @@ const Index = () => {
             </CardHeader>
             <CardContent>
               <p className="text-gray-700">
-                A passionate and innovative software developer seeking to leverage my technical skills in web development, 
-                data science, and DevOps to create impactful technological solutions. I am committed to continuous learning, 
-                problem-solving, and delivering high-quality software that drives meaningful technological advancements.
+                Detail-oriented B.Sc. IT graduate passionate about software development and cloud solutions. 
+                Seeking a challenging role where I can apply my backend and frontend skills to deliver impactful digital experiences and continue learning in a fast-paced tech team.
               </p>
             </CardContent>
           </Card>
@@ -53,7 +52,7 @@ const Index = () => {
                 "Designed responsive UI with real-time match updates"
               ]}
               links={[{
-                href: "https://github.com/Sandyleo13/arena-icon-blitz",
+                href: "https://github.com/Sandyleo13/Gaming",
                 label: "View Repository",
                 icon: ExternalLink
               }]}

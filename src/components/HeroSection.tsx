@@ -17,12 +17,12 @@ export const HeroSection = () => {
         </p>
         <div className="flex gap-4 justify-center pt-4">
           <Button variant="outline" size="icon">
-            <a href="https://github.com" target="_blank" rel="noopener noreferrer">
+            <a href="https://github.com/Sandyleo13" target="_blank" rel="noopener noreferrer">
               <GithubIcon className="h-5 w-5" />
             </a>
           </Button>
           <Button variant="outline" size="icon">
-            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.linkedin.com/in/sandipan-das-4bb71b319/" target="_blank" rel="noopener noreferrer">
               <LinkedinIcon className="h-5 w-5" />
             </a>
           </Button>
